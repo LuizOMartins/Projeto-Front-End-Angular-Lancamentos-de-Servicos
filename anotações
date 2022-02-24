@@ -1,0 +1,43 @@
+____________________________________________________________________________
+
+Ferramenta de desenvolvimento:
+Visual Studio Code:
+
+
+NodeJS:
+- precisa no desenvolvimento, para rodar não precisa, apenas do navegador.
+-node ja vem o npm.
+
+node  -v
+- consulta versão do node.
+
+____________________________________________________________________________
+
+
+Angular CLI:
+Ferramenta de linha de comando pra facilitar o uso do angular.
+
+-remover angular/cli
+npm uninstall -g @angular/cli
+
+npm cache clean
+npm install -g @angular/cli
+ng --version
+
+ng serve --port 8181
+
+____________________________________________________________________________
+
+package.json
+- dependencias
+
+____________________________________________________________________________
+
+Bootstrapping e AppModule:
+
+
+Module:
+declarations: declara itens
+imports: importar itens
+providers: provedores de  serviço
+bootstrap: inicia a aplicação
