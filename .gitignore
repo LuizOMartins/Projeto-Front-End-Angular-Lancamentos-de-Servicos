@@ -3,6 +3,7 @@
 # Compiled output
 /projeto/dist
 /projeto/tmp
+/projeto/.angular
 /projeto/out-tsc
 /projeto/bazel-out
 
