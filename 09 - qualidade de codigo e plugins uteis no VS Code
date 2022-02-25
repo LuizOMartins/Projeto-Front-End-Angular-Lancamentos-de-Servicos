@@ -1,0 +1,18 @@
+tslint: obsoleto.
+
+ESLint: verifica o codigo.
+
+ng test:Executa testes de unidade em um projeto.
+
+	--karma-config	
+	O nome do arquivo de configuração do Karma.
+
+
+Extensão de verificação de codigo:
+- ESLint
+
+.editorconfig:extensão ler as informações do arquivo para fazer as validações;
+
+HTML Snippes: auto complete para HTML.
+
+Auto Import: importação automatica.
