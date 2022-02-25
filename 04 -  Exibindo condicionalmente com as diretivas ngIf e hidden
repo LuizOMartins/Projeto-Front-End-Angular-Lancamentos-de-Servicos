@@ -1,0 +1,7 @@
+Exibindo condicionalmente com as diretivas ngIf e hidden:
+
+
+hidden:  usa display none pra ocultar os elementos
+
+ngIf: remove do DOM.
+
