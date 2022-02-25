@@ -1,0 +1,8 @@
+Usando property binding:
+
+<button type="button" class="btn btn-primary" 
+    (click)="adicionar()" [disabled]="nome.length == 0">Adicionar
+</button>
+
+
+- com properti binding da pra associar uma propriedade do template com o "controller"
