@@ -1,0 +1,30 @@
+ng new projeto-ui
+
+would you like to add angular routing (y/n)
+
+um projeto Angular com a CLI mais recente, ele solicitará que você adicione o roteamento angular ao seu projeto, que é um recurso recém-introduzido pela CLI Angular. Se você digitar 'Y' ao criar um projeto, ele adicionará 'app-routing.module.ts' caso contrário, nenhum arquivo será adicionado. Mas o recurso de roteamento será incorporado no arquivo 'app.module.ts'.
+
+_____________________________________
+
+
+
+npm install primeng --save
+
+npm install primeicons --save
+--icones
+
+npm install primeflex --save
+--  grid system do PrimeNG.
+
+
+_____________________________________
+
+Inserindo:
+- angular.json
+"styles": [
+  "src/styles.scss",
+  "node_modules/primeicons/primeicons.css",
+  "node_modules/primeflex/primeflex.css",
+  "node_modules/primeng/resources/themes/saga-blue/theme.css",
+  "node_modules/primeng/resources/primeng.min.css"
+],

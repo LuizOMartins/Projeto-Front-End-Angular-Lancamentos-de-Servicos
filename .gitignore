@@ -7,8 +7,16 @@
 /projeto/out-tsc
 /projeto/bazel-out
 
+
+/projeto-ui/dist
+/projeto-ui/tmp
+/projeto-ui/.angular
+/projeto-ui/out-tsc
+/projeto-ui/bazel-out
+
 # Node
 /projeto/node_modules
+/projeto-ui/node_modules
 npm-debug.log
 yarn-error.log
 
