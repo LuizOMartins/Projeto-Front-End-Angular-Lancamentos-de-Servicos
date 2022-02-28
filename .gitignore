@@ -10,7 +10,7 @@
 
 /projetoUI/dist
 /projetoUI/tmp
-/projetoIO/.angular
+/projetoUI/.angular
 /projetoUI/out-tsc
 /projetoUI/bazel-out
 
