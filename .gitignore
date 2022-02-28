@@ -11,6 +11,7 @@
 /projetoUI/dist
 /projetoUI/tmp
 /projetoUI/.angular
+/projetoUI/.angular/*
 /projetoUI/out-tsc
 /projetoUI/bazel-out
 
