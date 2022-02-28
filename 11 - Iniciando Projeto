@@ -28,3 +28,32 @@ Inserindo:
   "node_modules/primeng/resources/themes/saga-blue/theme.css",
   "node_modules/primeng/resources/primeng.min.css"
 ],
+
+
+_____________________________________
+
+Adicionando o formulário de pesquisa de lançamentos:
+Adicionando uma tabela de dados:
+Customizando colunas com ng-template:
+
+
+
+app html
+style global
+module
+
+migrando para versão: 1.1.2
+  "primeng": "^4.1.0-rc.2",
+
+
+npm uninstall -g @angular/cli
+npm install -g @angular/cli@1.1.2
+
+
+____________________________________
+
+
+
+p-table que também é conhecido como TurboTable , podemos dizer que é uma versão avançada do p-dataTable.
+
+

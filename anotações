@@ -79,3 +79,7 @@ Comunicação entre componentes:
 
 Binding de eventos customizados com @Output e EventEmitter;
 Pai para Filho: Input;
+
+
+
+
