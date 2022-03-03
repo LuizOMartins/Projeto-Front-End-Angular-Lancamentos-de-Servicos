@@ -57,3 +57,6 @@ ____________________________________
 p-table que também é conhecido como TurboTable , podemos dizer que é uma versão avançada do p-dataTable.
 
 
+git filter-branch --tree-filter 'rm -rf  projetoUI/.angular/cache/*' HEAD
+> remove todos os arquivos que sa subiram.
+
