@@ -2,6 +2,7 @@ import { Lancamentos } from './domain/lancamentos';
 import { Component, OnInit } from '@angular/core';
 import { ConfirmationService, MessageService } from 'primeng/api';
 import { LancamentosService } from './services/productservice';
+import { faPencil, faTrash } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
     selector: 'app-root',
@@ -12,7 +13,8 @@ import { LancamentosService } from './services/productservice';
 export class AppComponent implements OnInit {
 
     lancamentos: Lancamentos[];
-
+    faPencil = faPencil;
+    faTrash = faTrash;
     constructor(private lancamentosService: LancamentosService) { }
 
     ngOnInit() {

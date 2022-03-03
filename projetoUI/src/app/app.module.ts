@@ -14,7 +14,10 @@ import { DropdownModule } from 'primeng/dropdown';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { RatingModule } from 'primeng/rating';
 import { ToolbarModule } from 'primeng/toolbar';
+import {TooltipModule} from 'primeng/tooltip';
 import { ConfirmationService } from 'primeng/api';
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppComponent } from './app.component';
 
@@ -37,7 +40,9 @@ import { AppComponent } from './app.component';
         InputTextareaModule,
         RadioButtonModule,
         DropdownModule,
-        ButtonModule
+        ButtonModule,
+        FontAwesomeModule,
+        TooltipModule
     ],
     providers: [ConfirmationService],
     bootstrap: [AppComponent]
