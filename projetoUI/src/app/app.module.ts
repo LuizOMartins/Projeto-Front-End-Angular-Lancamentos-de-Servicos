@@ -20,10 +20,14 @@ import { ConfirmationService } from 'primeng/api';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppComponent } from './app.component';
+import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        LancamentosPesquisaComponent,
+        NavbarComponent
     ],
     imports: [
         BrowserModule,
@@ -42,7 +46,7 @@ import { AppComponent } from './app.component';
         DropdownModule,
         ButtonModule,
         FontAwesomeModule,
-        TooltipModule
+        
     ],
     providers: [ConfirmationService],
     bootstrap: [AppComponent]
