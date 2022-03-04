@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { FuncionarioCardComponent } from './funcionario-card/funcionario-card.component';
 import { FuncionarioFormComponent } from './funcionario-form/funcionario-form.component';
+import { CampoColoridoDirective } from './campo-colorido.directive';
 
 
 
@@ -12,7 +13,8 @@ import { FuncionarioFormComponent } from './funcionario-form/funcionario-form.co
   declarations: [
     AppComponent,
     FuncionarioCardComponent,
-    FuncionarioFormComponent
+    FuncionarioFormComponent,
+    CampoColoridoDirective
   ],
   imports: [
     BrowserModule,
