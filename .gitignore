@@ -23,10 +23,20 @@
 /projeto-pipe/out-tsc
 /projeto-pipe/bazel-out
 
+
+/projeto-form/dist
+/projeto-form/tmp
+/projeto-form/.angular
+/projeto-form/.angular/*
+/projeto-form/out-tsc
+/projeto-form/bazel-out
+
+
 # Node
 /projeto/node_modules
 /projetoUI/node_modules
 /projeto-pipe/node_modules
+/projeto-form/node_modules
 npm-debug.log
 yarn-error.log
 
