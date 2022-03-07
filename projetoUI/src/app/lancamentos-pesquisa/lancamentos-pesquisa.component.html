@@ -43,7 +43,7 @@
                         <td><span>{{lanc.descricao}}</span></td>
                         <td><span>{{lanc.dataVencimento}}</span></td>
                         <td><span>{{lanc.dataPagamento}}</span></td>
-                        <td><span [style.color]="lanc.tipo === 'DESPESA' ? 'red' : 'blue'">{{lanc.valor}}</span></td>
+                        <td><span [style.color]="lanc.tipo === 'DESPESA' ? 'red' : 'blue'">{{lanc.valor | currency }}</span></td>
                         <td>
                           <a pButton ><fa-icon [icon]="faPencil"></fa-icon></a>
                           <button pButton pTooltip="Apagar" ><fa-icon [icon]="faTrash"></fa-icon></button>
