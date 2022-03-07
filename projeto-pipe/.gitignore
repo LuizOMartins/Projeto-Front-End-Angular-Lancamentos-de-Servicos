@@ -1,32 +1,13 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/projeto/dist
-/projeto/tmp
-/projeto/.angular
-/projeto/out-tsc
-/projeto/bazel-out
-
-
-/projetoUI/dist
-/projetoUI/tmp
-/projetoUI/.angular
-/projetoUI/.angular/*
-/projetoUI/out-tsc
-/projetoUI/bazel-out
-
-
-/projeto-pipe/dist
-/projeto-pipe/tmp
-/projeto-pipe/.angular
-/projeto-pipe/.angular/*
-/projeto-pipe/out-tsc
-/projeto-pipe/bazel-out
+/dist
+/tmp
+/out-tsc
+/bazel-out
 
 # Node
-/projeto/node_modules
-/projetoUI/node_modules
-/projeto-pipe/node_modules
+/node_modules
 npm-debug.log
 yarn-error.log
 
