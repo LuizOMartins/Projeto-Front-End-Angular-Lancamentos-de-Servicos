@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'projeto-pipe';
+  nome = 'Luiz Eduardo';
+  dataAniversario = new Date(1990, 3, 19);
+  preco = 12855.32;
+  troco = 0.57392;
 }
